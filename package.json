@@ -1,0 +1,14 @@
+{
+  "name": "@ores-chat-test/components-html-bundle-consumer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "External integrity and contract checks for the live ORES Chat HTML bundle.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
